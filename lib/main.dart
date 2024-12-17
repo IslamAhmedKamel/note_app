@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.dark,
-        useMaterial3: true,
+        // useMaterial3: false,
         fontFamily: kFontFamily,
       ),
-      home: const HomeView(),
+      home:   HomeView(),
     );
   }
 }
