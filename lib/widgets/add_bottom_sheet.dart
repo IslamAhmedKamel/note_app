@@ -17,7 +17,7 @@ class AddButtomSheet extends StatelessWidget {
               children: [
                 CustomTextField(hintText: "Title"),
                 SizedBox(height: 16),
-                CustomTextField(hintText: "Title", maxLins: 5),
+                CustomTextField(hintText: "Content", maxLins: 5),
               ],
             ),
             SizedBox(
